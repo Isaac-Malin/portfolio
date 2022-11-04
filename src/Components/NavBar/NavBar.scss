@@ -1,16 +1,44 @@
 .Nav-Container {
-    background-color: rgba(218, 96, 96);
     display: flex;
+
+    .links {
+        color: rgb(234, 131, 131);
+    }
 
     .Nav-Bar {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: end;
         align-items: center;   
         width: 100%;
         height: 10vh;
+
+        h3 {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .links1 {
+            margin: 10rem;
+            padding: 10px;
+            font-size: 1.3rem;
+            background: none;
+            border: none;
+            color: rgb(234, 131, 131);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .links1:hover {
+            cursor: pointer;
+        }
     }
 
     .My-Name {
-        background-color: red;
+        display: flex;
+        width: 15vw;
+        justify-content: center;
+        align-items: center;
     }
+
+
 }
